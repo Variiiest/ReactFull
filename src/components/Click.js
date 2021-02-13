@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import UpdateComp from './UpdateComp'
 export class Click extends Component {
 
     constructor(props) {
@@ -17,9 +17,11 @@ export class Click extends Component {
         const { count }= this.state;
         return (
             <div>
-                <button onClick= {this.UpdateClick}>Clicked {count} Time</button>
+                <button onClick= {this.UpdateClick}>{this.props.name} Clicked {count} Time</button>
             </div>
         )
     }
 }
+
+export default UpdateComp(Click);
 

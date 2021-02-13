@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import UpdateComp from './UpdateComp';
 
 
 export class Counter extends Component {
@@ -24,3 +24,5 @@ export class Counter extends Component {
         )
     }
 }
+
+export default UpdateComp(Counter);
