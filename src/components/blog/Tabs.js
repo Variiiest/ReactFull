@@ -114,7 +114,7 @@ const Tabs = ({ color }) => {
 export default function TabsRender() {
   return (
     <>
-      <Tabs color="pink" />;
+      <Tabs color="indigo" />;
     </>
   );
 }

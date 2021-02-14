@@ -1,26 +1,17 @@
 import React from "react";
-import Footer from "./components/Footer";
-// import Companies from "./components/main/Companies";
+import { LoginControl } from "./components/LoginControl";
+import Services from "./components/main/Services";
 
-// import SignUp from "./components/main/SignUp";
-// import {ClassComponent, ClassComponent2} from './components/ClassComponent';
-// import  Counter from './components/Counter';
-// import Click from './components/Click';
-// import ParentComp from './components/ParentComp';
-import BlogDetail from './components/blog/BlogDetail';
-import Navbar from './components/Navbar';
-import Comment from "./components/blog/Comment";
-import TabsRender from './components/blog/Tabs';
+
 const App = ( ) => {
   return (
     <>
-
-  <Navbar/>
-  <BlogDetail/>
-  <Comment/>
-  <TabsRender/>
-  <Footer/>
+<Services
+/>
+<LoginControl
+/>
     </>
+
   );
 };
 export default App;
