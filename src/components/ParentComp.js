@@ -22,7 +22,7 @@ export class ParentComp extends Component {
     render() {
         return (
             <div>
-                I am the Parent Comp.
+                I am the Parent Comp{new Date().toLocaleTimeString()}.
 
                 <RegComp name= {this.state.name} />
                 <PureComp name= {this.state.name}/>
