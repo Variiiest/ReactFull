@@ -4,11 +4,20 @@ import './index.css';
 import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { LoginControl } from "./components/LoginControl";
+import Services from "./components/main/Services";
 
+import {Route, BrowserRouter as Router} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Router>
+    <Route path="/services" component={Services}/>
+    <Route path="/login" component={LoginControl}/>
+
+
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,20 +1,26 @@
 import React from "react";
-import { LoginControl } from "./components/LoginControl";
-import Services from "./components/main/Services";
-
-import {Route, BrowserRouter as Router} from 'react-router-dom'
+import Hero from "./components/main/Hero";
 import Navbar from "./components/main/Navbar";
-
+import Services from "./components/main/Services";
+import Companies from "./components/main/Companies";
+import Footer from "./components/main/Footer";
+import Features from "./components/main/Features";
+import TestiMonials from "./components/main/TestiMonials";
+import Subscribe from "./components/main/Subscribe";
 const App = ( ) => {
   return (
     <>
-    <Router>
-    <Route exact path="/" component={Navbar}/>
-    <Route path="/services" component={Services}/>
-    <Route path="/login" component={LoginControl}/>
+    <Navbar/>
+    <Hero/>
+    <Services/>
+<Features/>
+<Subscribe/>
+<TestiMonials/>
 
 
-    </Router>
+<Companies/>
+<Footer/>
+
 
     </>
 
