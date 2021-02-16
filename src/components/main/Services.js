@@ -4,7 +4,7 @@ class Services extends Component {
     render() {
         return (
             <div className="colorviolet">
-                 <div className="py-12">
+                 <div className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
@@ -34,16 +34,17 @@ class Services extends Component {
                   </dd>
                 </div>
               </div>
+       
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-full bg-red-500 text-white shadow-lg">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-full bg-green-500 text-white shadow-lg">
                     {/* Heroicon name: outline/globe-alt */}
                     <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                     </svg>
                   </div>
                 </div>
-                <div className="ml-4">
+                <div className="ml-8">
                   <dt className="text-xl leading-6 font-medium text-white">
                     Competitive exchange rates
                   </dt>

@@ -4,17 +4,21 @@ import './index.css';
 import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { LoginControl } from "./components/LoginControl";
+
 import Services from "./components/main/Services";
-
+import Footer from "./components/main/Footer";
 import {Route, BrowserRouter as Router} from 'react-router-dom'
-
+import SignUp from './components/main/SignUp';
+import Navbar from "./components/main/Navbar";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+       
     <Router>
+    <Navbar/>
     <Route path="/services" component={Services}/>
-    <Route path="/login" component={LoginControl}/>
+    <Route path="/signup" component={SignUp}/>
+    <Route exact path="/" component ={App}/>
+    <Footer/>
 
 
     </Router>

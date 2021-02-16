@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link} from 'react-router-dom';
+import {Switch,Route } from 'react-router-dom';
+import SignUp from "./SignUp";
+import Hero from "./Hero";
 export default function Navbar(fixed) {
   const [listOpen3, setListOpen3] = React.useState(false);
   return (
-    <Router>
-      <div className="relative fixed colorviolet">
+      <div className="relative colorviolet">
         <div className="max-w-7xl mx-2 px-f4 sm:px-6">
           <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -24,25 +26,16 @@ export default function Navbar(fixed) {
             </div>
 
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <a href="/goood" className="whitespace-nowrap text-base font-medium text-gray-700 hover:text-gray-800 px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-100 hover:bg-indigo-200">
+              <Link to="signup" className="whitespace-nowrap text-base font-medium text-gray-700 hover:text-gray-800 px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-100 hover:bg-indigo-200">
                 Sign in
-          </a>
-              <a href="/goood" className="ml-4 whitespace-nowrap inline-flex items-center justify-center px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+          </Link>
+              <Link to="services" className="ml-4 whitespace-nowrap inline-flex items-center justify-center px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
                 Sign up
-          </a>
+          </Link>
             </div>
           </div>
         </div>
-        {/*
-Mobile menu, show/hide based on mobile menu state.
-
-Entering: "duration-200 ease-out"
-  From: "opacity-0 scale-95"
-  To: "opacity-100 scale-100"
-Leaving: "duration-100 ease-in"
-  From: "opacity-100 scale-100"
-  To: "opacity-0 scale-95"
-*/}
+ 
         <div className={"absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden" + (listOpen3 ? "" : " hidden")}>
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-gray-900 divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
@@ -154,8 +147,13 @@ Leaving: "duration-100 ease-in"
           </div>
         </div>
      
+        <Switch>
+      <Route exact path='/' component={Hero}/>
+      <Route path="signup" component={SignUp}/>
+   </Switch>
       </div>
-    </Router>
+   
+    
   )
 
 }

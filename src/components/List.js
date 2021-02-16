@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function List() {
-    const MyList= ['Aditya', 'Ramu', 'Lara'];
-    return (
-        <div>
-           {MyList}
-        </div>
-
-)
+class List extends Component {
+    render() {
+        return (
+            <div>
+               List 
+            </div>
+        )
+    }
 }
+
+export default List
 
