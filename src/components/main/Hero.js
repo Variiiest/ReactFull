@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Hero extends Component {
     render() {
         return (
-            <div className="colorviolet">
+            <div className="colorviolet" style={{backgroundImage: 'url("http://127.0.0.1:5500/public/svgback.svg")'}}>
                   <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col text-white">
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl mb-5">Microdosing synth tattooed vexillologist</h1>

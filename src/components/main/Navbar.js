@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link} from 'react-router-dom';
 import {Switch,Route } from 'react-router-dom';
-import SignUp from "./SignUp";
+import SignUp from '../account/SignUp';
+import SignIn from '../account/SignIn';
 import Hero from "./Hero";
 export default function Navbar(fixed) {
   const [listOpen3, setListOpen3] = React.useState(false);
@@ -26,10 +27,10 @@ export default function Navbar(fixed) {
             </div>
 
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <Link to="signup" className="whitespace-nowrap text-base font-medium text-gray-700 hover:text-gray-800 px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-100 hover:bg-indigo-200">
+              <Link to="signin" className="whitespace-nowrap text-base font-medium text-gray-700 hover:text-gray-800 px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-100 hover:bg-indigo-200">
                 Sign in
           </Link>
-              <Link to="services" className="ml-4 whitespace-nowrap inline-flex items-center justify-center px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+              <Link to="signup" className="ml-4 whitespace-nowrap inline-flex items-center justify-center px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
                 Sign up
           </Link>
             </div>
@@ -150,6 +151,7 @@ export default function Navbar(fixed) {
         <Switch>
       <Route exact path='/' component={Hero}/>
       <Route path="signup" component={SignUp}/>
+      <Route path="signin" component={SignIn}/>
    </Switch>
       </div>
    

@@ -9,7 +9,7 @@ class Footer extends Component {
           <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
             
             <div className="lg:w-1/4 mx-auto  md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-semibold text-white  text-lg mb-3">Categories</h2>
               <nav className="list-none mb-10">
                 <li>
                    <a href="/good" className="text-gray-400 hover:text-white">First Link</a>
@@ -26,7 +26,24 @@ class Footer extends Component {
               </nav>
             </div>
             <div className="lg:w-1/4 mx-auto md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-semibold text-white  text-lg mb-3">Courses</h2>
+              <nav className="list-none mb-10">
+                <li>
+                   <a href="/good" className="text-gray-400 hover:text-white">Text Courses</a>
+                </li>
+                <li>
+                   <a href="/good" className="text-gray-400 hover:text-white">Second Link</a>
+                </li>
+                <li>
+                   <a href="/good" className="text-gray-400 hover:text-white">Third Link</a>
+                </li>
+                <li>
+                   <a href="/good" className="text-gray-400 hover:text-white">Fourth Link</a>
+                </li>
+              </nav>
+            </div>
+            <div className="lg:w-1/4 mx-auto md:w-1/2 w-full px-4">
+              <h2 className="title-font font-semibold text-white  text-lg mb-3">Categories</h2>
               <nav className="list-none mb-10">
                 <li>
                    <a href="/good" className="text-gray-400 hover:text-white">First Link</a>
@@ -43,7 +60,7 @@ class Footer extends Component {
               </nav>
             </div>
             <div className="lg:w-1/4 mx-auto md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-semibold text-white  text-lg mb-3">Categories</h2>
               <nav className="list-none mb-10">
                 <li>
                    <a href="/good" className="text-gray-400 hover:text-white">First Link</a>
@@ -60,7 +77,7 @@ class Footer extends Component {
               </nav>
             </div>
             <div className="lg:w-1/4 mx-auto md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-semibold text-white text-lg mb-3">Categories</h2>
               <nav className="list-none mb-10">
                 <li>
                    <a href="/good" className="text-gray-400 hover:text-white">First Link</a>
@@ -77,7 +94,7 @@ class Footer extends Component {
               </nav>
             </div>
             <div className="lg:w-1/4 mx-auto md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-semibold text-white  text-lg mb-3">Categories</h2>
               <nav className="list-none mb-10">
                 <li>
                    <a href="/good" className="text-gray-400 hover:text-white">First Link</a>
@@ -94,7 +111,7 @@ class Footer extends Component {
               </nav>
             </div>
             <div className="lg:w-1/4 mx-auto md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-semibold text-white  text-lg mb-3">Categories</h2>
               <nav className="list-none mb-10">
                 <li>
                    <a href="/good" className="text-gray-400 hover:text-white">First Link</a>
@@ -111,24 +128,7 @@ class Footer extends Component {
               </nav>
             </div>
             <div className="lg:w-1/4 mx-auto md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">CATEGORIES</h2>
-              <nav className="list-none mb-10">
-                <li>
-                   <a href="/good" className="text-gray-400 hover:text-white">First Link</a>
-                </li>
-                <li>
-                   <a href="/good" className="text-gray-400 hover:text-white">Second Link</a>
-                </li>
-                <li>
-                   <a href="/good" className="text-gray-400 hover:text-white">Third Link</a>
-                </li>
-                <li>
-                   <a href="/good" className="text-gray-400 hover:text-white">Fourth Link</a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 mx-auto md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-semibold text-white  text-lg mb-3">Categories</h2>
               <nav className="list-none mb-10">
                 <li>
                    <a href="/good" className="text-gray-400 hover:text-white">First Link</a>

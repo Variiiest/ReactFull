@@ -5,17 +5,20 @@ import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Services from "./components/main/Services";
+import SignIn from "./components/account/SignIn";
 import Footer from "./components/main/Footer";
 import {Route, BrowserRouter as Router} from 'react-router-dom'
-import SignUp from './components/main/SignUp';
+import SignUp from './components/account/SignUp';
 import Navbar from "./components/main/Navbar";
+import Dashboard from './components/dashboard/Dashboard';
+
 ReactDOM.render(
   <React.StrictMode>
        
     <Router>
-    <Navbar/>
-    <Route path="/services" component={Services}/>
+    <Route path="/dashboard" component={Dashboard}/>
+    <Route path="/signin" component={SignIn}/>
+
     <Route path="/signup" component={SignUp}/>
     <Route exact path="/" component ={App}/>
     <Footer/>
