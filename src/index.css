@@ -16,6 +16,11 @@ div{
   background-color: rgb(31, 218, 140);
 }
 
+.scroll-hidden::-webkit-scrollbar {
+  height: 0px;
+  background: transparent;
+}
+
 code {
   font-family: 'Manrope', sans-serif;
 }

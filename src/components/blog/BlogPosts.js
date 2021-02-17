@@ -1,177 +1,232 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+import BlogFooter from './BlogFooter';
+import BlogHeader from './BlogHeader';
+
 
 class BlogPosts extends Component {
     render() {
         return (
-            <div>
-                
-      <div className="mx-2 mt-2">
-        <div className="block md:flex md:space-x-2 px-2 lg:p-0">
-          <a className="mb-4 md:mb-0 w-full md:w-2/3 relative rounded inline-block" style={{height: '24em'}} href="./blog.html">
-            <div className="absolute left-0 bottom-0 w-full h-full z-10" style={{backgroundImage: 'linear-gradient(180deg,transparent,rgba(0,0,0,.7))'}} />
-            <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" className="absolute left-0 top-0 w-full h-full rounded z-0 object-cover" />
-            <div className="p-4 absolute bottom-0 left-0 z-20">
-              <span className="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Nutrition</span>
-              <h2 className="text-4xl font-semibold text-gray-100 leading-tight">
-                Pellentesque a consectetur velit, ac molestie ipsum. Donec sodales, massa et auctor.
-              </h2>
-              <div className="flex mt-3">
-                <img src="https://randomuser.me/api/portraits/men/97.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
-                <div>
-                  <p className="font-semibold text-gray-200 text-sm"> Mike Sullivan </p>
-                  <p className="font-semibold text-gray-400 text-xs"> 14 Aug </p>
-                </div>
+            <div className="font-medium">
+<BlogHeader/>
+        <section className="text-white body-font bg-gray-900">
+        <div className="container px-5 py-2 mx-auto flex flex-wrap">
+        <div className="md:w-3/5">
+        <div className="h-full overflow-hidden">
+        <a  href="/" className="block rounded lg:flex mb-10 colorviolet">
+              <div className="h-64 lg:w-64 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
               </div>
-            </div>
-          </a>
-          <a className="w-full md:w-1/3 relative rounded" style={{height: '24em'}} href="./blog.html">
-            <div className="absolute left-0 top-0 w-full h-full z-10" style={{backgroundImage: 'linear-gradient(180deg,transparent,rgba(0,0,0,.7))'}} />
-            <img src="https://images.unsplash.com/photo-1543362906-acfc16c67564?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80" className="absolute left-0 top-0 w-full h-full rounded z-0 object-cover" />
-            <div className="p-4 absolute bottom-0 left-0 z-20">
-              <span className="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Science</span>
-              <h2 className="text-3xl font-semibold text-gray-100 leading-tight">Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit.</h2>
-              <div className="flex mt-3">
-                <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BODFjZTkwMjItYzRhMS00OWYxLWI3YTUtNWIzOWQ4Yjg4NGZiXkEyXkFqcGdeQXVyMTQ0ODAxNzE@._V1_UX172_CR0,0,172,256_AL_.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
+              <div className=" rounded px-4 py-4 flex flex-col justify-between leading-normal">
                 <div>
-                  <p className="font-semibold text-gray-200 text-sm"> Chrishell Staus </p>
-                  <p className="font-semibold text-gray-400 text-xs"> 15 Aug </p>
-                </div>
-              </div>
-            </div>
-          </a></div><a className="w-full md:w-1/3 relative rounded" style={{height: '24em'}} href="./blog.html">
-        </a>
-        <div className="block lg:flex lg:space-x-2 px-2 lg:p-0 mt-10 mb-10">
-          {/* post cards */}
-          <div className="w-full lg:w-2/3">
-            <a className="block rounded w-full lg:flex mb-10" href="./blog-single-1.html">
-              <div className="h-48 lg:w-48 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
-              </div>
-              <div className="bg-white rounded px-4 flex flex-col justify-between leading-normal">
-                <div>
-                  <div className="mt-3 md:mt-0 text-gray-700 font-bold text-2xl mb-2">
-                    Aliquam venenatis nisl id purus rhoncus, in efficitur sem hendrerit.
+                  <div className="mt-3 md:mt-0 text-gray-100 font-bold text-2xl mb-2">
+                    Aliquam venenatis nisl id purus rhoncus, .
                   </div>
-                  <p className="text-gray-700 text-base">
+                  <p className="text-gray-100 text-base">
                     Duis euismod est quis lacus elementum, eu laoreet dolor consectetur. 
                     Pellentesque sed neque vel tellus lacinia elementum. Proin consequat ullamcorper eleifend.
                   </p>
                 </div>
                 <div className="flex mt-3">
-                  <img src="https://randomuser.me/api/portraits/men/86.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
+                  <img alt="/" src="https://randomuser.me/api/portraits/men/86.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
                   <div>
-                    <p className="font-semibold text-gray-700 text-sm capitalize"> eduard franz </p>
-                    <p className="text-gray-600 text-xs"> 14 Aug </p>
+                    <p className="font-semibold text-gray-100 text-base capitalize"> eduard franz </p>
+                    <p className="text-white text-xs"> 14 Aug </p>
                   </div>
                 </div>
               </div>
             </a>
-            <div className="rounded w-full lg:flex mb-10">
-              <div className="h-48 lg:w-48 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
-              </div>
-              <div className="bg-white rounded px-4 flex flex-col justify-between leading-normal">
-                <div>
-                  <div className="mt-3 md:mt-0 text-gray-700 font-bold text-2xl mb-2">
-                    Integer commodo, sapien ut vulputate viverra
-                  </div>
-                  <p className="text-gray-700 text-base">
-                    Nam malesuada aliquet metus, ac commodo augue mollis sit amet. 
-                    Nam bibendum risus sit amet metus semper consectetur.
-                    Proin consequat ullamcorper eleifend.
-                    Nam bibendum risus sit amet metus semper consectetur.
-                  </p>
-                </div>
-                <div className="flex mt-3">
-                  <img src="https://randomuser.me/api/portraits/women/54.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
-                  <div>
-                    <p className="font-semibold text-gray-700 text-sm capitalize"> Serenity Hughes </p>
-                    <p className="text-gray-600 text-xs"> 14 Aug </p>
-                  </div>
-                </div>
+
+          <div className="flex flex-wrap -m-4 mb-4">
+            <div className="xl:w-1/3 md:w-1/2 p-4 text-center">
+              <div className="border-l-2 border-gray-200 p-6 colorviolet shadow  ">
+                
+                <h2 className="text-lg text-gray-100 font-medium title-font mb-2">Shooting Stars</h2>
+                <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
               </div>
             </div>
-            <div className="rounded w-full lg:flex mb-10">
-              <div className="h-48 lg:w-48 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
+            <div className="xl:w-1/3 md:w-1/2 p-4 text-center">
+              <div className="border-l-2 border-gray-200 p-6 colorviolet shadow  ">
+            
+                <h2 className="text-lg text-gray-100 font-medium title-font mb-2">The Catalyzer</h2>
+                <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
               </div>
-              <div className="bg-white rounded px-4 flex flex-col justify-between leading-normal">
-                <div>
-                  <div className="mt-3 md:mt-0 text-gray-700 font-bold text-2xl mb-2">
-                    Suspendisse varius justo eu risus laoreet fermentum non aliquam dolor
-                  </div>
-                  <p className="text-gray-700 text-base">
-                    Mauris porttitor, velit at tempus vulputate, odio turpis facilisis dui, 
-                    vitae eleifend odio ipsum at odio. Phasellus luctus scelerisque felis eget suscipit. 
-                  </p>
-                </div>
-                <div className="flex mt-3">
-                  <img src="https://randomuser.me/api/portraits/men/86.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
-                  <div>
-                    <p className="font-semibold text-gray-700 text-sm capitalize"> eduard franz </p>
-                    <p className="text-gray-600 text-xs"> 14 Aug </p>
-                  </div>
-                </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4 text-center">
+              <div className="border-l-2 border-gray-200 p-6 colorviolet shadow  ">
+               
+                <h2 className="text-lg text-gray-100 font-medium title-font mb-2">Neptune</h2>
+                <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+              </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4 text-center">
+              <div className="border-l-2 border-gray-200 p-6 colorviolet shadow  ">
+                
+                <h2 className="text-lg text-gray-100 font-medium title-font mb-2">Melanchole</h2>
+                <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+              </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4 text-center">
+              <div className="border-l-2 border-gray-200 p-6 colorviolet shadow  ">
+            
+                <h2 className="text-lg text-gray-100 font-medium title-font mb-2">Bunker</h2>
+                <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+              </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4 text-center">
+              <div className="border-l-2 border-gray-200 p-6 colorviolet shadow  ">
+                
+                <h2 className="text-lg text-gray-100 font-medium title-font mb-2">Ramona Falls</h2>
+                <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
               </div>
             </div>
           </div>
-          {/* right sidebar */}
-          <div className="w-full lg:w-1/3 px-3">
-            {/* topics */}
-            <div className="mb-4">
-              <h5 className="font-bold text-lg uppercase text-gray-700 px-1 mb-2"> Popular Topics </h5>
-              <ul>
-                <li className="px-1 py-4 border-b border-t border-white hover:border-gray-200 transition duration-300">
-                  <a href="#" className="flex items-center text-gray-600 cursor-pointer">
-                    <span className="inline-block h-4 w-4 bg-green-300 mr-3" />
-                    Nutrition
-                    <span className="text-gray-500 ml-auto">23 articles</span>
-                    <i className="text-gray-500 bx bx-right-arrow-alt ml-1" />
-                  </a>
-                </li>
-                <li className="px-1 py-4 border-b border-t border-white hover:border-gray-200 transition duration-300">
-                  <a href="#" className="flex items-center text-gray-600 cursor-pointer">
-                    <span className="inline-block h-4 w-4 bg-indigo-300 mr-3" />
-                    Food &amp; Diet
-                    <span className="text-gray-500 ml-auto">18 articles</span>
-                    <i className="text-gray-500 bx bx-right-arrow-alt ml-1" />
-                  </a>
-                </li>
-                <li className="px-1 py-4 border-b border-t border-white hover:border-gray-200 transition duration-300">
-                  <a href="#" className="flex items-center text-gray-600 cursor-pointer">
-                    <span className="inline-block h-4 w-4 bg-yellow-300 mr-3" />
-                    Workouts
-                    <span className="text-gray-500 ml-auto">34 articles</span>
-                    <i className="text-gray-500 bx bx-right-arrow-alt ml-1" />
-                  </a>
-                </li>
-                <li className="px-1 py-4 border-b border-t border-white hover:border-gray-200 transition duration-300">
-                  <a href="#" className="flex items-center text-gray-600 cursor-pointer">
-                    <span className="inline-block h-4 w-4 bg-blue-300 mr-3" />
-                    Immunity
-                    <span className="text-gray-500 ml-auto">9 articles</span>
-                    <i className="text-gray-500 bx bx-right-arrow-alt ml-1" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-            {/* divider */}
-            <div className="border border-dotted" />
-            {/* subscribe */}
-            <div className="p-1 mt-4 mb-4">
-              <h5 className="font-bold text-lg uppercase text-gray-700 mb-2"> Subscribe </h5>
-              <p className="text-gray-600">
-                Subscribe to our newsletter. We deliver the best health related articles to your inbox
-              </p>
-              <input placeholder="your email address" className="text-gray-700 bg-gray-100 rounded-t hover:outline-none p-2 w-full mt-4 border" />
-              <button className="px-4 py-2 bg-indigo-600 text-gray-200 rounded-b w-full capitalize tracking-wide">
-                Subscribe
-              </button>
-            </div>
-            {/* divider */}
-            <div className="border border-dotted" />
+      
+   
+          <a  href="/" className="block rounded lg:flex mb-4 mt-2">
+              <div className="h-36 lg:w-36 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
+              </div>
+              <div className=" rounded px-4 py-4 flex flex-col justify-between leading-normal">
+                <div>
+                  <div className="mt-3 md:mt-0 text-gray-100 font-bold text-2xl mb-2">
+                    Aliquam venenatis nisl id purus rhoncus, .
+                  </div>
+                  <p className="text-gray-100 text-base">
+                    Duis euismod est quis lacus elementum, eu laoreet dolor consectetur. 
+                  
+                  </p>
+                </div>
+                <div className="flex mt-3">
+                  <img alt="/" src="https://randomuser.me/api/portraits/men/86.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
+                  <div>
+                    <p className="font-semibold text-gray-100 text-base capitalize"> eduard franz </p>
+                    <p className="text-white text-xs"> 14 Aug </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+      
+            <a  href="/" className="block rounded lg:flex mb-4 mt-2 ">
+              <div className="h-36 lg:w-36 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
+              </div>
+              <div className=" rounded px-4 py-4 flex flex-col justify-between leading-normal">
+                <div>
+                  <div className="mt-3 md:mt-0 text-gray-100 font-bold text-2xl mb-2">
+                    Aliquam venenatis nisl id purus rhoncus, .
+                  </div>
+                  <p className="text-gray-100 text-base">
+                    Duis euismod est quis lacus elementum, eu laoreet dolor consectetur. 
+                  
+                  </p>
+                </div>
+                <div className="flex mt-3">
+                  <img alt="/" src="https://randomuser.me/api/portraits/men/86.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
+                  <div>
+                    <p className="font-semibold text-gray-100 text-base capitalize"> eduard franz </p>
+                    <p className="text-white text-xs"> 14 Aug </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+      
+            <a  href="/" className="block rounded lg:flex mb-4 mt-2 ">
+              <div className="h-36 lg:w-36 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
+              </div>
+              <div className=" rounded px-4 py-4 flex flex-col justify-between leading-normal">
+                <div>
+                  <div className="mt-3 md:mt-0 text-gray-100 font-bold text-2xl mb-2">
+                    Aliquam venenatis nisl id purus rhoncus, .
+                  </div>
+                  <p className="text-gray-100 text-base">
+                    Duis euismod est quis lacus elementum, eu laoreet dolor consectetur. 
+                  
+                  </p>
+                </div>
+                <div className="flex mt-3">
+                  <img alt="/" src="https://randomuser.me/api/portraits/men/86.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
+                  <div>
+                    <p className="font-semibold text-gray-100 text-base capitalize"> eduard franz </p>
+                    <p className="text-white text-xs"> 14 Aug </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+      
+            <a  href="/" className="block rounded lg:flex mb-4 mt-2 ">
+              <div className="h-36 lg:w-36 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
+              </div>
+              <div className=" rounded px-4 py-4 flex flex-col justify-between leading-normal">
+                <div>
+                  <div className="mt-3 md:mt-0 text-gray-100 font-bold text-2xl mb-2">
+                    Aliquam venenatis nisl id purus rhoncus, .
+                  </div>
+                  <p className="text-gray-100 text-base">
+                    Duis euismod est quis lacus elementum, eu laoreet dolor consectetur. 
+                  
+                  </p>
+                </div>
+                <div className="flex mt-3">
+                  <img alt="/" src="https://randomuser.me/api/portraits/men/86.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
+                  <div>
+                    <p className="font-semibold text-gray-100 text-base capitalize"> eduard franz </p>
+                    <p className="text-white text-xs"> 14 Aug </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+      
+      </div>
+      
           </div>
+          <div className="text-lg text-gray-100 font-medium title-font mb-2 md:w-1/5">
+       
+          <div className="flex mx-2 items-center border-gray-200  border-l-2 p-4 colorviolet ">
+        <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+        <div className="flex-grow">
+          <h2 className="text-gray-100 title-font font-medium">Holden Caulfield</h2>
+          
         </div>
       </div>
-            </div>
+      <div className="flex mx-2 items-center border-gray-200  border-l-2 p-4 colorviolet  mt-2">
+        <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+        <div className="flex-grow">
+          <h2 className="text-gray-100 title-font font-medium">Holden Caulfield</h2>
+          
+        </div>
+      </div>
+      <div className="flex mx-2 items-center border-gray-200  border-l-2 p-4 colorviolet  mt-2">
+        <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+        <div className="flex-grow">
+          <h2 className="text-gray-100 title-font font-medium">Holden Caulfield</h2>
+          
+        </div>
+      </div>
+            
+
+     
+          </div>
+         
+          <div className="text-lg text-gray-100 font-medium title-font mb-2 md:w-1/5">
+   
+          <div className="hidden sm:block mx-auto overflow-hidden fixed bottom-0 shadow-lg">
+        <img className="object-cover object-center w-full h-36 " src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
+      
+        <div className="px-6 py-4 bg-gray-900 -mt-2">
+          <h1 className="text-xl font-semibold text-white">Patterson johnson</h1>
+          <p className="py-2 text-gray-400">Full Stack maker &amp; UI / UX Designer , love hip hop music Author of Building UI.</p>
+          
+        </div>
+ 
+        </div>
+      
+      </div>
+
+  
+
+        </div>
+        
+      </section> 
+  <BlogFooter/>
+     </div>
         )
     }
 }

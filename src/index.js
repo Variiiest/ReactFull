@@ -6,11 +6,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import SignIn from "./components/account/SignIn";
-import Footer from "./components/main/Footer";
 import {Route, BrowserRouter as Router} from 'react-router-dom'
 import SignUp from './components/account/SignUp';
-import Navbar from "./components/main/Navbar";
 import Dashboard from './components/dashboard/Dashboard';
+import BlogPosts from './components/blog/BlogPosts';
+import BlogDetail from './components/blog/BlogDetail';
+import TopBlogger from './components/blog/TopBlogger';
+import PodCastlist from './components/podcast/PodCastlist';
+import CourseList from './components/academy/CourseList';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,11 +21,14 @@ ReactDOM.render(
     <Router>
     <Route path="/dashboard" component={Dashboard}/>
     <Route path="/signin" component={SignIn}/>
-
+    <Route path='/blog' component={BlogPosts}/>
+    <Route path='/detail' component={BlogDetail}/>
+    <Route path='/podcast' component={PodCastlist}/>
+    <Route path='/course' component={CourseList}/>
+    <Route path='/pricing' component={TopBlogger}/>
     <Route path="/signup" component={SignUp}/>
     <Route exact path="/" component ={App}/>
-    <Footer/>
-
+  
 
     </Router>
   </React.StrictMode>,
