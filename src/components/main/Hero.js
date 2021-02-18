@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { Link} from 'react-router-dom';
 class Hero extends Component {
     render() {
         return (
@@ -11,7 +11,10 @@ class Hero extends Component {
             <div className="flex flex-col items-center mt-12 text-center">
                 <span className="inline-flex w-full rounded-full shadow-sm md:w-auto">
                   <button type="button" className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white transition duration-150 ease-in-out bg-indigo-600  rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 active:bg-indigo-700">
+                   <Link to="/blog">
                    TRY NOW
+                   </Link>
+                   
                   </button>
                 </span>
               </div>

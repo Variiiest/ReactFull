@@ -16,7 +16,7 @@ import PodCastlist from './components/podcast/PodCastlist';
 import CourseList from './components/academy/CourseList';
 import CourseDetail from './components/academy/CourseDetail';
 import Navbar from './components/main/Navbar';
-import Footer from './components/main/Footer';
+import BlogFooter from './components/blog/BlogFooter';
 
 
 ReactDOM.render(
@@ -34,7 +34,7 @@ ReactDOM.render(
     <Route path='/pricing' component={TopBlogger}/>
     <Route path="/signup" component={SignUp}/>
     <Route exact path="/" component ={App}/>
-    <Footer/>
+    <BlogFooter/>
 
     </Router>
   </React.StrictMode>,

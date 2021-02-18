@@ -5,7 +5,7 @@ export class BlogFooter extends Component {
         return (
             <div>
                 
-<footer className="bg-gray-800 text-white pt-12 pb-8 px-4">
+<footer className="colorviolet text-white pt-12 pb-8 px-4">
         <div className="mx-auto px-4 container overflow-hidden flex flex-col lg:flex-row justify-between">
           <a href="/" className="block mr-4 w-1/3 text-3xl font-bold">
             edusolve 

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 body {
   margin: 0;
   font-family: 'Manrope', sans-serif;
@@ -7,6 +9,18 @@ body {
 div{
   font-family: 'Manrope', sans-serif;
 }
+
+.acadfont{
+  font-family: 'Yellowtail', cursive;
+}
+
+.jobfont{
+  font-family: 'Rye', cursive;
+}
+.storefont{
+  font-family: 'Pacifico', cursive;
+}
+
 
 .colorviolet{
   background-color: #1a1b38;
