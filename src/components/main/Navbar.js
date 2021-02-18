@@ -56,33 +56,23 @@ export class Navbar extends Component {
             </div>
             <nav className="hidden md:flex space-x-10">
               <div className="relative">
-                {/* Item active: "text-gray-900", Item inactive: "text-gray-300" */}
                 <button type="button" className="group  text-gray-300 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none " onClick={()=>this.setListOpen1()}>
                   <span>Solutions</span>
-                  {/*
-              Heroicon name: solid/chevron-down
-
-              Item active: "text-gray-100", Item inactive: "text-gray-400"
-            */}
-                  <svg className="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <svg className="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </button>
-                {/*
-            'Solutions' flyout menu, show/hide based on flyout menu state.
-
-            Entering: "transition ease-out duration-200"
-              From: "opacity-0 translate-y-1"
-              To: "opacity-100 translate-y-0"
-            Leaving: "transition ease-in duration-150"
-              From: "opacity-100 translate-y-0"
-              To: "opacity-0 translate-y-1"
-          */}
-               
               </div>
-              <a href="/" className="text-base font-bold text-gray-300 hover:text-gray-900">
-                Pricing
-              </a>
+              <div className="relative">
+                <button type="button" className="group  text-gray-300 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none " onClick={()=>this.setListOpen1()}>
+                  <span>
+                    Enterprise
+                  </span>
+            <svg className="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </button>
+              </div>
               <a href="/" className="text-base font-bold text-gray-300 hover:text-gray-900">
                 Docs
               </a>
@@ -194,7 +184,7 @@ export class Navbar extends Component {
         </div>
       </div>
       
-      <section className={"text-gray-600 body-font bg-white"+( this.state.openList1 ? "" : " hidden")}>
+      <section className={"text-gray-600 body-font bg-white"+( this.state.openList1 ? "" : " hidden")} onMouseLeave={()=>this.setListOpen1()}>
         <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
           <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
             <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
@@ -238,7 +228,7 @@ export class Navbar extends Component {
       </section>
 
 
-      <section className={"text-gray-600 body-font bg-white"+( this.state.openList2 ? "" : " hidden")}>
+      <section className={"text-gray-600 body-font bg-white"+( this.state.openList2 ? "" : " hidden")} onMouseLeave={()=>this.setListOpen2()}>
         <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
           <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
             <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidesdgfdfgdfgrmy</h1>
