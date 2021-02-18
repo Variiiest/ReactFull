@@ -207,7 +207,7 @@ class BlogPosts extends Component {
          
           <div className="text-lg text-gray-100 font-medium title-font mb-2 md:w-1/5">
    
-          <div className="hidden sm:block mx-auto overflow-hidden fixed bottom-0 shadow-lg">
+          <div className="hidden sm:block mx-auto overflow-hidden fixed shadow-lg">
         <img className="object-cover object-center w-full h-36 " src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
       
         <div className="px-6 py-4 bg-gray-900 -mt-2">

@@ -4,7 +4,7 @@ class LatestEvents extends Component {
     render() {
         return (
             <div>
-                <section className="text-gray-200 body-font bg-gray-900">
+                <section className="text-gray-200 body-font colorviolet">
         <div className="container px-5 py-12 mx-auto">
         <div className="text-center mb-20">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-100 mb-4">Raw Denim Heirloom Man Braid</h1>

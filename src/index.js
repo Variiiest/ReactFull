@@ -14,17 +14,24 @@ import BlogDetail from './components/blog/BlogDetail';
 import TopBlogger from './components/blog/TopBlogger';
 import PodCastlist from './components/podcast/PodCastlist';
 import CourseList from './components/academy/CourseList';
+import CourseDetail from './components/academy/CourseDetail';
+import Navbar from './components/main/Navbar';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-       
+      
     <Router>
+    <Navbar/>
     <Route path="/dashboard" component={Dashboard}/>
     <Route path="/signin" component={SignIn}/>
     <Route path='/blog' component={BlogPosts}/>
     <Route path='/detail' component={BlogDetail}/>
     <Route path='/podcast' component={PodCastlist}/>
     <Route path='/course' component={CourseList}/>
+    <Route path='/hu101' component={CourseDetail}/>
     <Route path='/pricing' component={TopBlogger}/>
     <Route path="/signup" component={SignUp}/>
     <Route exact path="/" component ={App}/>
