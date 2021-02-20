@@ -19,9 +19,9 @@ export default function Navbar(fixed) {
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <a href="/" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-800 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10">
+                    <Link to="/coursecatelog" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-800 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10">
                       See Courses
-                    </a>
+                    </Link>
                   </div>
              
                 </div>

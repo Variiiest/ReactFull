@@ -201,9 +201,10 @@ export class Navbar extends Component {
             <div className="xl:w-1/3 md:w-1/2 p-2 text-center">
               <div className="p-6   ">
                 
-                <h2 className="text-3xl text-pink-500 tracking-wider font-semibold title-font mb-2 acadfont"><span className="text-pink-300"> A</span>
+                <h2 className="text-3xl text-pink-500 tracking-wider font-semibold title-font mb-2 acadfont">
+                  <Link to="course"><span className="text-pink-300"> A</span>
                 
-                cademy</h2>
+                cademy </Link> </h2>
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-2 text-center">

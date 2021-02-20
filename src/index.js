@@ -17,6 +17,8 @@ import CourseList from './components/academy/CourseList';
 import CourseDetail from './components/academy/CourseDetail';
 import Navbar from './components/main/Navbar';
 import BlogFooter from './components/blog/BlogFooter';
+import CoursePage from './components/academy/CoursePage';
+import CourseCatalog from './components/academy/CourseCatalog';
 
 
 ReactDOM.render(
@@ -32,8 +34,12 @@ ReactDOM.render(
     <Route path='/course' component={CourseList}/>
     <Route path='/hu101' component={CourseDetail}/>
     <Route path='/pricing' component={TopBlogger}/>
+    <Route exact path='/coursedetail' component={CoursePage}/>
+    <Route exact path='/coursecatelog' component={CourseCatalog}/>
     <Route path="/signup" component={SignUp}/>
     <Route exact path="/" component ={App}/>
+
+   
     <BlogFooter/>
 
     </Router>
