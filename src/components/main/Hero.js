@@ -12,7 +12,8 @@ class Hero extends Component {
               <div className="md:flex md:flex-wrap">
                 <div className="md:w-1/2 text-center md:text-left md:pt-16">
                   <h1 className="font-bold text-white text-3xl md:text-6xl leading-tight mb-4">
-                    Simple payment platform for any service
+                    Simple platform
+                    <br/> for any education business
                   </h1>
                   <p className="text-indigo-200 md:text-xl md:pr-48">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
