@@ -19,6 +19,9 @@ import Navbar from './components/main/Navbar';
 import BlogFooter from './components/blog/BlogFooter';
 import CoursePage from './components/academy/CoursePage';
 import CourseCatalog from './components/academy/CourseCatalog';
+import ProfilePage from './components/commune/ProfilePage';
+import BlogProfile from './components/commune/BlogProfile';
+
 
 
 ReactDOM.render(
@@ -33,9 +36,11 @@ ReactDOM.render(
     <Route path='/podcast' component={PodCastlist}/>
     <Route path='/course' component={CourseList}/>
     <Route path='/hu101' component={CourseDetail}/>
+    <Route path='/profile' component={ProfilePage}/>
     <Route path='/pricing' component={TopBlogger}/>
     <Route exact path='/coursedetail' component={CoursePage}/>
     <Route exact path='/coursecatelog' component={CourseCatalog}/>
+    <Route exact path='/blogprofile' component={BlogProfile}/>
     <Route path="/signup" component={SignUp}/>
     <Route exact path="/" component ={App}/>
 

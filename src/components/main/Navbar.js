@@ -40,13 +40,13 @@ export class Navbar extends Component {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <Link to="/" className="text-2xl font-bold text-indigo-600">
+              <Link to="/" className="text-2xl font-bold text-pink-600 sm:ml-12">
                 <span className="sr-only">Logo</span>
                 edusolve
               </Link>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
-              <button className="p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-300  focus:outline-none " onClick={()=>this.setListOpen3()}>
+              <button className="p-2 inline-flex items-center justify-center text-white hover:text-gray-300  focus:outline-none " onClick={()=>this.setListOpen3()}>
                 <span className="sr-only">Open menu</span>
                 {/* Heroicon name: outline/menu */}
                 <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -58,7 +58,7 @@ export class Navbar extends Component {
               <div className="relative">
                 <button type="button" className="group  text-gray-300 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none " onClick={()=>this.setListOpen1()}>
                   <span>Products</span>
-            <svg className="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <svg className="ml-2 h-5 w-5 text-white group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </button>
@@ -68,7 +68,7 @@ export class Navbar extends Component {
                   <span>
                     Enterprise
                   </span>
-            <svg className="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <svg className="ml-2 h-5 w-5 text-white group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </button>
@@ -83,9 +83,9 @@ export class Navbar extends Component {
                   {/*
               Heroicon name: solid/chevron-down
 
-              Item active: "text-gray-100", Item inactive: "text-gray-400"
+              Item active: "text-gray-100", Item inactive: "text-white"
             */}
-                  <svg className="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <svg className="ml-2 h-5 w-5 text-white group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </button>
@@ -103,7 +103,7 @@ export class Navbar extends Component {
               </div>
             </nav>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <Link to="signin" className="whitespace-nowrap text-base font-bold text-gray-700 hover:text-gray-800 px-8 py-3 border-l-2 border-transparent rounded-full shadow-sm text-base font-bold text-white bg-indigo-100 hover:bg-indigo-200">
+            <Link to="signin" className="whitespace-nowrap text-base font-bold text-gray-700 hover:text-gray-800 px-8 py-3 border-l-2 border-transparent rounded-full shadow-sm text-base font-bold text-white bg-white hover:bg-">
                 Sign in
           </Link>
               <Link to="signup" className="ml-4 whitespace-nowrap inline-flex items-center justify-center px-8 py-3 border-l-2 border-transparent rounded-full shadow-sm text-base font-bold text-white bg-indigo-600 hover:bg-indigo-700">
@@ -130,7 +130,7 @@ export class Navbar extends Component {
                   <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow" />
                 </div>
                 <div className="-mr-2">
-                  <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-300 hover:bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" onClick={()=>this.setListOpen3()}>
+                  <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-white hover:text-gray-300 hover:bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" onClick={()=>this.setListOpen3()}>
                     <span className="sr-only">Close menu</span>
                     {/* Heroicon name: outline/x */}
                     <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

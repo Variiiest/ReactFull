@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 body {
   margin: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 div{
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .acadfont{
@@ -23,7 +23,7 @@ div{
 
 
 .colorviolet{
-  background-color:#050de2;
+  background-color: #0f0a55;
 }
 
 .colorserve{
@@ -38,6 +38,47 @@ div{
 .scroll-hid::-webkit-scrollbar {
   width: 0px;
   background: transparent;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+ }
+  100% {
+    transform: translateX(calc(-400px * 3));
+ }
+}
+.slider {
+  height: 550px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+.slider::before, .slider::after {
+
+  height: 550px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 5s linear infinite;
+  display: flex;
+  width: calc(400px * 6);
+}
+.slider .slide {
+  height: 550px;
+  width: 400px;
 }
 
 
