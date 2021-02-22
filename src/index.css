@@ -35,6 +35,20 @@ div{
   background: transparent;
 }
 
+
+.jobcard{
+  background-color: #0a0d19;
+}
+
+.jobmain{
+  background-color:#1e1f261d;
+}
+
+.jobcolor{
+  background: linear-gradient(90deg, #08054d 0%, #221c49 100%);
+
+}
+
 .scroll-hid::-webkit-scrollbar {
   width: 0px;
   background: transparent;
