@@ -4,7 +4,7 @@ import './index.css';
 import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import JobDetail from "./components/Jobsearch/JobDetail"
 import JobNav from "./components/Jobsearch/JobNav";
 import {Route, BrowserRouter as Router} from 'react-router-dom'
 
@@ -14,6 +14,9 @@ ReactDOM.render(
       
     <Router>
       <JobNav/>
+
+      
+      <Route path="detail" component ={JobDetail}/>
     <Route exact path="/" component ={App}/>
 
 

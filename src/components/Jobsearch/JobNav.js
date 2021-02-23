@@ -379,6 +379,7 @@ function JobNav() {
      
       </div>
               </div>
+            
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
