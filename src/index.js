@@ -4,19 +4,22 @@ import './index.css';
 import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import JobDetail from "./components/Jobsearch/JobDetail"
+// import JobDetail from "./components/Jobsearch/JobDetail"
 import JobNav from "./components/Jobsearch/JobNav";
 import {Route, BrowserRouter as Router} from 'react-router-dom'
+import JobMain from './components/Jobsearch/JobMain';
+import Companies from './components/Jobsearch/Companies';
 
 
 ReactDOM.render(
   <React.StrictMode>
       
     <Router>
+      <Companies/>
       <JobNav/>
 
       
-      <Route path="detail" component ={JobDetail}/>
+      <Route path="/main" component ={JobMain}/>
     <Route exact path="/" component ={App}/>
 
 

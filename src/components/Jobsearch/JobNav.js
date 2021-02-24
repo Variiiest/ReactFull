@@ -21,7 +21,7 @@ function JobNav() {
                                 </div>
                             </div>
                             <ul className="f-m-m">
-                                <a>
+                                <a href="/">
                                     <li className="text-white pt-8">
                                         <div className="flex items-center">
                                             <div className="md:w-6 md:h-6 w-5 h-5">
@@ -36,7 +36,7 @@ function JobNav() {
                                         </div>
                                     </li>
                                 </a>
-                                <a>
+                                <a href="/" >
                                     <li className="text-white pt-8">
                                         <div className="flex items-center">
                                             <div className="flex items-center">
@@ -84,7 +84,7 @@ function JobNav() {
                                         )}
                                     </li>
                                 </a>
-                                <a>
+                                <a href="/" >
                                     <li className="text-white pt-8">
                                         <div className="flex items-center">
                                             <div className="md:w-6 md:h-6 w-5 h-5">
@@ -97,8 +97,8 @@ function JobNav() {
                                         </div>
                                     </li>
                                 </a>
-                                <a>
-                                    <a>
+                                <a href="/" >
+                                    <a href="/" >
                                         <li className="text-white pt-8">
                                             <div className="flex items-center">
                                                 <div className="flex items-center">
@@ -357,7 +357,7 @@ function JobNav() {
           <div className="flex flex-wrap -m-2">
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -370,7 +370,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -383,7 +383,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -396,7 +396,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -408,7 +408,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -421,7 +421,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -433,7 +433,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -446,7 +446,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -458,7 +458,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -471,7 +471,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -484,7 +484,7 @@ function JobNav() {
           
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -497,7 +497,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -509,7 +509,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -522,7 +522,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -534,7 +534,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -547,7 +547,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -559,7 +559,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -572,7 +572,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -584,7 +584,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -597,7 +597,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -609,7 +609,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -622,7 +622,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
@@ -634,7 +634,7 @@ function JobNav() {
             </div>
             <div className="p-2 mx-auto mb-2 lg:w-1/3 lg:mb-0">
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard ">
-                <a className="inline-flex items-center">
+                <a href="/" className="inline-flex items-center">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 title-font">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Type: Remote Full Time</span>
@@ -647,7 +647,7 @@ function JobNav() {
                 <span class="inline-block py-1 px-2 ml-2 rounded-full bg-blue-700 text-indigo-100 text-xs font-medium tracking-widest">CATEGORY X</span>
             
                 <div className="flex items-center flex-wrap mt-4 ">
-        <a className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
+        <a href="/" className="text-indigo-100 inline-flex items-center  lg:mb-0 px-4 py-2 bg-blue-800 rounded-md font-medium ">Apply Now
          
         </a>
         <span className="text-gray-100 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">

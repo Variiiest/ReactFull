@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class JobDetail extends Component {
+class JobDetail extends Component {
     render() {
         return (
             <div>
@@ -11,14 +11,14 @@ export class JobDetail extends Component {
             <div className="flex relative pb-6">
               
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard w-full justify-end">
-                <a className="flex items-center flex-wrap">
+                <a href="/" className="flex items-center flex-wrap">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 -mt-4">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Location: Lomndon sdf</span>
                   </span>
                 </a>
                 <div className="flex items-center flex-wrap ">
-        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
+        <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
         </a>
         <span className="text-gray-800 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 px-2 bg-yellow-500 rounded-full">
           New 
@@ -34,14 +34,14 @@ export class JobDetail extends Component {
               <div className="flex relative pb-6">
               
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard w-full justify-end">
-                <a className="flex items-center flex-wrap">
+                <a href="/" className="flex items-center flex-wrap">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 -mt-4">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Location: Lomndon sdf</span>
                   </span>
                 </a>
                 <div className="flex items-center flex-wrap ">
-        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
+        <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
         </a>
         <span className="text-gray-800 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 px-2 bg-yellow-500 rounded-full">
           New 
@@ -57,14 +57,14 @@ export class JobDetail extends Component {
               <div className="flex relative pb-6">
               
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard w-full justify-end">
-                <a className="flex items-center flex-wrap">
+                <a href="/" className="flex items-center flex-wrap">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 -mt-4">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Location: Lomndon sdf</span>
                   </span>
                 </a>
                 <div className="flex items-center flex-wrap ">
-        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
+        <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
         </a>
         <span className="text-gray-800 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 px-2 bg-yellow-500 rounded-full">
           New 
@@ -80,14 +80,14 @@ export class JobDetail extends Component {
               <div className="flex relative pb-6 w-full">
               
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard w-full justify-end">
-                <a className="flex items-center flex-wrap">
+                <a href="/" className="flex items-center flex-wrap">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 -mt-4">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Location: Lomndon sdf</span>
                   </span>
                 </a>
                 <div className="flex items-center flex-wrap ">
-        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
+        <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
         </a>
         <span className="text-gray-800 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 px-2 bg-yellow-500 rounded-full">
           New 
@@ -103,14 +103,14 @@ export class JobDetail extends Component {
               <div className="flex relative pb-6">
               
               <div className="h-full text-left px-4 py-4 rounded-lg jobcard w-full justify-end">
-                <a className="flex items-center flex-wrap">
+                <a href="/" className="flex items-center flex-wrap">
                   <img alt="testimonial" className="inline-block object-cover object-center w-16 h-16 mb-4 bg-gray-100 rounded" src="https://dummyimage.com/302x302/94a3b8/ffffff" /> <span className="flex flex-col flex-grow pl-4">
                     <span className="font-bold text-lg text-gray-100 -mt-4">Software developer </span>
                     <span className="text-sm text-gray-500 uppercase font-bold">Location: Lomndon sdf</span>
                   </span>
                 </a>
                 <div className="flex items-center flex-wrap ">
-        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
+        <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 px-2 py-1 border-2 border-indigo-500 rounded-full text-sm">Remote Full Time
         </a>
         <span className="text-gray-800 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 px-2 bg-yellow-500 rounded-full">
           New 
@@ -232,7 +232,7 @@ export class JobDetail extends Component {
      </div>
 
      </div>
-          <a class="text-indigo-400 inline-flex items-center px-2 py-2 bg-indigo-800 rounded mb-4">Apply
+          <a href="/" classname="text-indigo-400 inline-flex items-center px-2 py-2 bg-indigo-800 rounded mb-4">Apply
         
           </a>
             </div>
