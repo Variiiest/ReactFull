@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link} from 'react-router-dom';
+// import { Link} from 'react-router-dom';
 class Hero extends Component {
     render() {
         return (
@@ -20,7 +20,7 @@ class Hero extends Component {
                     vitae corrupti asperiores veritatis dolorum, commodi aperiam
                     enim.
                   </p>
-                  <a href="#" className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-red-500 hover:bg-red-600 rounded-lg shadow">Get Started</a>
+                  <a href="/" className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-red-500 hover:bg-red-600 rounded-lg shadow">Get Started</a>
                 </div>
                 <div className="md:w-1/2 relative">
                   <div className="hidden md:block  rounded-md px-4 ml-5">
