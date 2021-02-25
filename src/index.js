@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {Route, BrowserRouter as Router} from 'react-router-dom'
 
 import CourseDetail from './components/academy/CourseDetail';
+import CourseCatalog from './components/academy/CourseCatalog';
 
 
 
@@ -14,6 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
       
     <Router>
+      <CourseCatalog/>
     <Route exact path='/coursedetail' component={CourseDetail}/>
     <Route exact path="/" component ={App}/>
 
