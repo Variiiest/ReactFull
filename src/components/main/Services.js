@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Companies from './Companies'
 class Services extends Component {
     render() {
         return (
@@ -127,9 +126,6 @@ class Services extends Component {
           </div>
         </div>
       </div>  
-<Companies/>
-
-
 
             </div>
 

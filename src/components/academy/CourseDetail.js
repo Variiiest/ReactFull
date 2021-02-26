@@ -12,16 +12,16 @@ class CourseDetail extends Component {
           <span className="text-2xl font-bold text-pink-500"> .edu</span>
           </div>
           <div className="flex mx-auto flex-grow mt-4 flex-col text-gray-400 space-y-4">
-            <button className="h-10 w-12 text-gray-500 font-bold flex items-center justify-center">
+            <button className="h-10 w-12 text-gray-100 font-bold flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" style={{fill: 'rgba(255, 255, 255, 0.48)', transform: '', msFilter: ''}}><path d="M3,13h1v2v5c0,1.103,0.897,2,2,2h3h6h3c1.103,0,2-0.897,2-2v-5v-2h1c0.404,0,0.77-0.244,0.924-0.617 c0.155-0.374,0.069-0.804-0.217-1.09l-9-9c-0.391-0.391-1.023-0.391-1.414,0l-9,9c-0.286,0.286-0.372,0.716-0.217,1.09 C2.23,12.756,2.596,13,3,13z M10,20v-5h4v5H10z M12,4.414l6,6V15l0,0l0.001,5H16v-5c0-1.103-0.897-2-2-2h-4c-1.103,0-2,0.897-2,2v5 H6v-5v-3v-1.586L12,4.414z" /></svg>
             </button>
             <button className="h-10 w-12 bgjobcard font-bold flex items-center justify-center ">
             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" style={{fill: 'rgba(255, 255, 255, 0.48)', transform: '', msFilter: ''}}><path d="M19,3H5C3.897,3,3,3.897,3,5v14c0,1.103,0.897,2,2,2h8c0.131,0,0.26-0.026,0.381-0.076s0.232-0.123,0.326-0.217l7-7 c0.086-0.086,0.147-0.187,0.196-0.293c0.014-0.03,0.022-0.061,0.033-0.093c0.028-0.084,0.046-0.17,0.051-0.259 C20.989,13.041,21,13.021,21,13V5C21,3.897,20.103,3,19,3z M5,5h14v7h-6c-0.553,0-1,0.448-1,1v6H5V5z M14,17.586V14h3.586 L14,17.586z" /></svg>
             </button>
-            <button className="h-10 w-12 text-gray-500 font-bold flex items-center justify-center">
+            <button className="h-10 w-12 text-gray-100 font-bold flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" style={{fill: 'rgba(255, 255, 255, 0.48)', transform: '', msFilter: ''}}><path d="M12 4C9.243 4 7 6.243 7 9h2c0-1.654 1.346-3 3-3s3 1.346 3 3c0 1.069-.454 1.465-1.481 2.255-.382.294-.813.626-1.226 1.038C10.981 13.604 10.995 14.897 11 15v2h2v-2.009c0-.024.023-.601.707-1.284.32-.32.682-.598 1.031-.867C15.798 12.024 17 11.1 17 9 17 6.243 14.757 4 12 4zM11 18H13V20H11z" /></svg>
             </button>
-            <button className="h-10 w-12 text-gray-500 font-bold flex items-center justify-center">
+            <button className="h-10 w-12 text-gray-100 font-bold flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" style={{fill: 'rgba(255, 255, 255, 0.48)', transform: '', msFilter: ''}}><path fill="none" d="M11 14L18 10 11 6z" /><path d="M4,8H2v12c0,1.103,0.897,2,2,2h12v-2H4V8z" /><path d="M20,2H8C6.896,2,6,2.896,6,4v12c0,1.104,0.896,2,2,2h12c1.104,0,2-0.896,2-2V4C22,2.896,21.104,2,20,2z M11,14V6l7,4 L11,14z" /></svg>
             </button>
           </div>
@@ -121,8 +121,8 @@ class CourseDetail extends Component {
           </div>
           <div className="p-8">
             <div className="uppercase tracking-wide text-base text-indigo-500 font-semibold">Case study</div>
-            <a href="/" className="block mt-1 text-lg leading-tight font-bold text-black hover:underline">Finding customers for your new business</a>
-            <p className="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+            <a href="/" className="block mt-1 text-lg leading-tight font-bold text-white hover:underline">Finding customers for your new business</a>
+            <p className="mt-2 text-gray-100">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
           </div>
         </div>
             </div>
@@ -137,8 +137,8 @@ class CourseDetail extends Component {
           </div>
           <div className="p-8">
             <div className="uppercase tracking-wide text-base text-indigo-500 font-semibold">Case study</div>
-            <a href="/" className="block mt-1 text-lg leading-tight font-bold text-black hover:underline">Finding customers for your new business</a>
-            <p className="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+            <a href="/" className="block mt-1 text-lg leading-tight font-bold text-white hover:underline">Finding customers for your new business</a>
+            <p className="mt-2 text-gray-100">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
           </div>
         </div>
             </div>
@@ -149,8 +149,8 @@ class CourseDetail extends Component {
           </div>
           <div className="p-8">
             <div className="uppercase tracking-wide text-base text-indigo-500 font-semibold">Case study</div>
-            <a href="/" className="block mt-1 text-lg leading-tight font-bold text-black hover:underline">Finding customers for your new business</a>
-            <p className="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+            <a href="/" className="block mt-1 text-lg leading-tight font-bold text-white hover:underline">Finding customers for your new business</a>
+            <p className="mt-2 text-gray-100">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
           </div>
         </div>
             </div>
@@ -161,8 +161,8 @@ class CourseDetail extends Component {
           </div>
           <div className="p-8">
             <div className="uppercase tracking-wide text-base text-indigo-500 font-semibold">Case study</div>
-            <a href="/" className="block mt-1 text-lg leading-tight font-bold text-black hover:underline">Finding customers for your new business</a>
-            <p className="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+            <a href="/" className="block mt-1 text-lg leading-tight font-bold text-white hover:underline">Finding customers for your new business</a>
+            <p className="mt-2 text-gray-100">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
           </div>
         </div>
             </div>
