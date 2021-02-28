@@ -4,6 +4,7 @@ import {Switch,Route } from 'react-router-dom';
 import SignUp from '../account/SignUp';
 import SignIn from '../account/SignIn';
 import Hero from "./Hero";
+import Acadmain from '../../pages/Academy/Acadmain';
 
 
 export class Navbar extends Component {
@@ -184,7 +185,7 @@ export class Navbar extends Component {
               <div className="p-6   ">
                 
                 <h2 className="text-3xl text-pink-500 tracking-wider font-semibold title-font mb-2 acadfont">
-                  <Link to="course"><span className="text-pink-300"> A</span>
+                  <Link to="/academy"><span className="text-pink-300"> A</span>
                 
                 cademy </Link> </h2>
               </div>
@@ -270,8 +271,8 @@ export class Navbar extends Component {
       </section>
         <Switch>
       <Route exact path='/' component={Hero}/>
-      <Route path="signup" component={SignUp}/>
-      <Route path="signin" component={SignIn}/>
+      <Route path="/signup" component={SignUp}/>
+      <Route path="/academy" component={Acadmain}/>
    </Switch>
       </div>
    

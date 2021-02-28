@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Features extends Component {
     render() {
         return (
-            <div className="bg-gray-200">
+            <div className="bg-gray-900">
 
 
 

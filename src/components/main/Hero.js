@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Hero extends Component {
     render() {
         return (
-            <div className="bg-gray-100 text-lg font-bold">
+            <div className="text-lg font-bold">
 
 
         <div className=" colorviolet md:overflow-hidden">
@@ -105,8 +105,8 @@ class Hero extends Component {
 
             </div>
           </div>
-<svg  className="sm:block hidden" width="1596" height="288" viewBox="0 0 1596 288" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 197L1596 0V288H0V197Z" fill="white"/>
+<svg  className="sm:block hidden text-gray-900" width="1596" height="288" viewBox="0 0 1596 288" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 197L1596 0V288H0V197Z" fill="rgba(17, 24, 39,1)"/>
 <rect width="335" height="39" transform="matrix(1 0 0 -1 1106 134)" fill="#0B47F2"/>
 <rect x="1076.32" y="116" width="308.935" height="47.1287" transform="rotate(1.61019 1076.32 116)" fill="#FFAD4E"/>
 </svg>
