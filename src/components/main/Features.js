@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Features extends Component {
     render() {
         return (
-            <div className="bg-gray-900">
+            <div className="bg-gray-800">
 
 
 
@@ -27,7 +27,7 @@ class Features extends Component {
                                 </div>
                             </div>
                             <div className="lg:w-1/3 w-full relative h-96 flex items-end justify-center ">
-                                <img className="absolute w-full h-full inset-0 object-cover object-center rounded-lg" src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png" alt />
+                                <img className="absolute w-full h-full inset-0 object-cover object-center rounded-lg" src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png" alt=""/>
                                 <div className="relative z-10  bg-white rounded shadow p-6 w-10/12 -mb-20">
                                     <div className="flex items-center justify-between w-full sm:w-full mb-8">
                                         <div className="flex items-center">
@@ -85,7 +85,7 @@ class Features extends Component {
                                 </div>
                             </div>
                             <div className="lg:w-1/3 w-full relative h-96 flex items-end justify-center ">
-                                <img className="absolute w-full h-full inset-0 object-cover object-center rounded-lg" src="https://cdn.tuk.dev/assets/templates/prodify/invoicing-system.png" alt />
+                                <img className="absolute w-full h-full inset-0 object-cover object-center rounded-lg" src="https://cdn.tuk.dev/assets/templates/prodify/invoicing-system.png" alt=""/>
                                 <div className="relative z-10 p-4 bg-white shadow rounded mx-auto w-9/12 -mb-20">
                                     <h4 className="text-gray-800 font-normal text-lg leading-4 tracking-normal mb-2">Invoice # 35RD87</h4>
                                     <p className="text-gray-600 text-xs leading-3 font-normal">Assigned to: Josh Rollins</p>
@@ -128,7 +128,7 @@ class Features extends Component {
                 <div className>
                     <div className="flex flex-wrap items-center">
                         <div className="lg:w-2/5 w-full ">
-                            <img className="w-full" src="https://cdn.tuk.dev/assets/templates/prodify/solution.png" alt srcSet />
+                            <img className="w-full" src="https://cdn.tuk.dev/assets/templates/prodify/solution.png" alt=""srcSet />
                         </div>
                         <div className="lg:w-3/5 w-full">
                             <div className="lg:pl-8 py-2 text-color">
@@ -136,7 +136,7 @@ class Features extends Component {
                                 <h2 className="text-xl lg:text-3xl leading-7 lg:leading-10 f-f-r py-4 lg:py-8">Here at Globex we take special care of what your organization needs instead of selling you a mass market tool that takes a one size fits all approach. I personally review each and every client business and oversee the team that tailores a solution</h2>
                                 <div className="flex items-center">
                                     <div className="flex items-center justify-center rounded-full w-16 h-16">
-                                        <img src="https://cdn.tuk.dev/assets/templates/prodify/profile.png" alt />
+                                        <img src="https://cdn.tuk.dev/assets/templates/prodify/profile.png" alt=""/>
                                     </div>
                                     <div className="pl-3">
                                         <h3 className="f-f-l text-xl lg:text-3xl">Rachel Dawson</h3>
@@ -160,14 +160,14 @@ class Features extends Component {
                     <section id="carousel">
                         <figure className="visible">
                             <div className="relative bg-white">
-                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt className="absolute -mt-4 pl-6 sm:pl-12" />
+                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt=""className="absolute -mt-4 pl-6 sm:pl-12" />
                                 <div className="pt-20 px-6 sm:px-12">
                                     <p className="text-gray-600 text-base pb-6">From local banks to local government, we partner with organizations on their journey to digital transformation. Our customers include 15 million professionals in 175 countries and 800 of the fortune 1000.</p>
                                     <p className="text-gray-600 text-base pb-8">We can't believe how far we have come in the last 6 months. I really did not think this awesome career move would come so quickly. Thanks to each of you put into SI and the partner relationships.</p>
                                     <div className="flex items-center justify-between">
                                         <div className="flex items-center pb-12">
                                             <div className="h-12 w-12">
-                                                <img src="https://tuk-cdn.s3.amazonaws.com/assets/components/testimonials/t_1.png" alt className="h-full w-full object-cover overflow-hidden rounded-full" />
+                                                <img src="https://tuk-cdn.s3.amazonaws.com/assets/components/testimonials/t_1.png" alt=""className="h-full w-full object-cover overflow-hidden rounded-full" />
                                             </div>
                                             <p className="text-gray-600 font-bold ml-3">
                                                 Jane Doe <br />
@@ -190,14 +190,14 @@ class Features extends Component {
                         </figure>
                         <figure className="hidden">
                             <div className="relative bg-white">
-                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt className="absolute -mt-4 pl-6 sm:pl-12" />
+                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt=""className="absolute -mt-4 pl-6 sm:pl-12" />
                                 <div className="pt-20 px-6 sm:px-12">
                                     <p className="text-gray-600 text-base pb-6">The company really helped me with my personal branding. Everything from conception to execution was extremely awesome and really professional. I enjoyed the services they offered. Their design is impeccable.</p>
                                     <p className="text-gray-600 text-base pb-8">I truly value the relationship they created with me. I will always think first about them while starting any projects in the future. They are definitely my go-to for any design or services. Excellent communication and I always feel that I am their first priority.</p>
                                     <div className="flex items-center justify-between">
                                         <div className="flex items-center pb-12">
                                             <div className="h-12 w-12">
-                                                <img src="https://cdn.tuk.dev/assets/templates/Project+Management/pm_15.png" alt className="h-full w-full object-cover overflow-hidden rounded-full" />
+                                                <img src="https://cdn.tuk.dev/assets/templates/Project+Management/pm_15.png" alt=""className="h-full w-full object-cover overflow-hidden rounded-full" />
                                             </div>
                                             <p className="text-gray-600 font-bold ml-3">
                                                 Richard Stark <br />
@@ -220,14 +220,14 @@ class Features extends Component {
                         </figure>
                         <figure className="hidden">
                             <div className="relative bg-white">
-                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt className="absolute -mt-4 pl-6 sm:pl-12" />
+                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt=""className="absolute -mt-4 pl-6 sm:pl-12" />
                                 <div className="pt-20 px-6 sm:px-12">
                                     <p className="text-gray-600 text-base pb-6">It's not just a pretty face but I am also thrilled by the quality of support. It's fast reliable and has no complications at all. It has completely changed the way I develop a website . It lets you create anything you envision and it does so easily and flawlessly.</p>
                                     <p className="text-gray-600 text-base pb-8">Undoubtedly working with them was just like playing. It was so easy editing your content, so fast getting perfect results and so easy customizing based on your own brand.Thank you so much.</p>
                                     <div className="flex items-center justify-between">
                                         <div className="flex items-center pb-12">
                                             <div className="h-12 w-12">
-                                                <img src="https://cdn.tuk.dev/assets/templates/Project+Management/pm_18.png" alt className="h-full w-full object-cover overflow-hidden rounded-full" />
+                                                <img src="https://cdn.tuk.dev/assets/templates/Project+Management/pm_18.png" alt=""className="h-full w-full object-cover overflow-hidden rounded-full" />
                                             </div>
                                             <p className="text-gray-600 font-bold ml-3">
                                                 Thomas Clark

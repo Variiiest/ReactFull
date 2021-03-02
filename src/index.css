@@ -23,9 +23,9 @@ div{
 
 
 .colorviolet{
-  background-color: #0f0a55;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgb(6, 54, 187) 0%, rgb(4, 4, 112) 17%, rgb(3, 30, 151) 29%, rgb(7, 21, 177) 40%, rgb(3, 14, 112) 52%, rgb(3, 9, 63) 67%, rgb(2, 14, 105) 100%);
 }
-
 .colorserve{
   background-color: rgb(31, 218, 140);
 }
@@ -37,7 +37,9 @@ div{
 
 
 .jobcard{
-  background-color: #0a0d19;
+  
+  background: rgb(1, 1, 39);
+ 
 }
 
 .jobmain{

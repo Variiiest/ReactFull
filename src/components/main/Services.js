@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 class Services extends Component {
     render() {
         return (
-            <div className="bg-gray-900 font-bold">
+            <div className="bg-gray-800 font-bold">
                  <div className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className=" text-center">
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
              Why edusolve?
@@ -12,7 +12,7 @@ class Services extends Component {
           
           </div>
           <div className="mt-20 sm:mx-12 mx-2">
-            <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-10 md:gap-y-10">
+            <dl className="space-y-10 md:space-y-0 md:grid lg:grid-cols-3 md:grid-cols-2  md:gap-x-10 md:gap-y-10">
               <div className="flex">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-full bg-yellow-600 text-gray-100 shadow-lg">

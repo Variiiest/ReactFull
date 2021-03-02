@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import CoursePage from '../../components/academy/CoursePage'
-
+import CourseCatalog from '../../components/academy/CourseCatalog'
 export class Acadmain extends Component {
     render() {
         return (
             <div>
-                <CoursePage/>
+                
+                <CourseCatalog/>
             </div>
         )
     }

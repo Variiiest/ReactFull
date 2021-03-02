@@ -6,14 +6,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Route, BrowserRouter as Router} from 'react-router-dom'
 import MainPage from './pages/MainPage';
-import SignIn from './components/account/SignIn';
 
 ReactDOM.render(
   <React.StrictMode>
       
     <Router>
     <MainPage/>
-
+   
     <Route exact path="/" component ={App}/>
      
     </Router>

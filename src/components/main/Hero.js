@@ -8,7 +8,7 @@ class Hero extends Component {
 
         <div className=" colorviolet md:overflow-hidden">
           <div className="px-4 py-20 md:py-4">
-            <div className="md:max-w-6xl md:mx-auto">
+            <div className="md:max-w-7xl md:mx-auto px-4">
               <div className="md:flex md:flex-wrap">
                 <div className="md:w-1/2 text-center md:text-left md:pt-16">
                   <h1 className="font-bold text-white text-3xl md:text-6xl leading-tight mb-4">
@@ -22,7 +22,7 @@ class Hero extends Component {
                   </p>
                   <a href="/" className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-red-500 hover:bg-red-600 rounded-lg shadow">Get Started</a>
                 </div>
-                <div className="md:w-1/2 relative">
+                <div className="md:w-1/2">
                   <div className="hidden md:block  rounded-md px-4 ml-5">
                   
                     <div className="flex-1 px-6 py-12 ">
@@ -105,8 +105,8 @@ class Hero extends Component {
 
             </div>
           </div>
-<svg  className="sm:block hidden text-gray-900" width="1596" height="288" viewBox="0 0 1596 288" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 197L1596 0V288H0V197Z" fill="rgba(17, 24, 39,1)"/>
+<svg  className="sm:block hidden text-gray-900 object-cover" width="1596" height="288" viewBox="0 0 1596 288" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 197L1596 0V288H0V197Z" fill="rgba(31, 41, 55,1)"/>
 <rect width="335" height="39" transform="matrix(1 0 0 -1 1106 134)" fill="#0B47F2"/>
 <rect x="1076.32" y="116" width="308.935" height="47.1287" transform="rotate(1.61019 1076.32 116)" fill="#FFAD4E"/>
 </svg>

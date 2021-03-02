@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Companies from '../components/main/Companies'
-
+import {Route} from 'react-router-dom'
 import Navbar from '../components/main/Navbar'
 import Services from '../components/main/Services'
 import LatestPost from '../components/main/LatestPost'
@@ -12,11 +12,20 @@ export class MainPage extends Component {
             <div>
 
 <Navbar/>
-<Services/>
+
+<Route exact path='/'>
+      <Services/>
 <Companies/>
 <LatestPost/>
 <Subscribe/>
+</Route>
 
+<Route path='academy'>
+      <Services/>
+<Companies/>
+<LatestPost/>
+<Subscribe/>
+</Route>
 <Footer/>
 
 

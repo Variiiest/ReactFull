@@ -6,7 +6,7 @@ class SignUp extends Component {
             <div className="">
 
 <section className="w-full px-8 py-16 colorviolet xl:px-8">
-        <div className="max-w-full sm:mx-16 mx-auto">
+        <div className="max-w-full sm:mx-8 mx-auto">
           <div className="flex flex-col items-center md:flex-row">
             <div className="w-full space-y-5 md:w-4/5 md:pr-16">
               <p className="font-bold text-white uppercase px-2 py-2 bg-blue-600 w-32 rounded-full pl-4">Let's Start</p>
@@ -16,7 +16,7 @@ class SignUp extends Component {
               <p className="text-xl text-gray-200 md:pr-16">Learn how to engage with your visitors and teach them about your mission. We're revolutionizing the way customers and businesses interact.</p>
             </div>
             <div className="w-full mt-16 md:mt-0 md:w-2/5">
-              <div className="relative z-10 h-auto p-8 py-10 overflow-hidden bg-gray-900  rounded-lg shadow-2xl px-7">
+              <div className="relative  h-auto p-4 py-10 overflow-hidden bg-gray-900  rounded-lg shadow-2xl px-7">
                 <h3 className="mb-6 text-2xl font-medium text-center text-gray-100">Sign in to your Account</h3>
                 <div className="block mb-4   rounded-full">
                   <input type="text" name="email" id="email" className="block w-full px-4 py-3 text-gray-100  rounded-full  focus:outline-none bg-gray-800" placeholder="Email address" />

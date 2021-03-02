@@ -3,10 +3,10 @@ import { Link} from 'react-router-dom';
 import {Switch,Route } from 'react-router-dom';
 import SignUp from '../account/SignUp';
 import SignIn from '../account/SignIn';
-import Hero from "./Hero";
-import Acadmain from '../../pages/Academy/Acadmain';
 
-
+import Hero from './Hero'
+import CoursePage from '../academy/CoursePage';
+import CourseCatalog from '../academy/CourseCatalog';
 export class Navbar extends Component {
 
 
@@ -37,17 +37,16 @@ export class Navbar extends Component {
       <div>
             <div className="relative colorviolet">
 
-<div className="relative ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <Link to="/" className="text-2xl font-bold text-pink-600 sm:ml-12">
+              <Link to="/" className="text-2xl font-bold text-pink-600">
                 <span className="sr-only">Logo</span>
                 .edusolve
               </Link>
             </div>
-            <div className="-mr-2 -my-2 md:hidden">
-              <button className="p-2 inline-flex items-center justify-center text-white hover:text-gray-300  focus:outline-none " onClick={()=>this.setListOpen3()}>
+            <div className="-mr-2 -my-2 lg:hidden">
+              <button className="p-2 inline-flex items-center justify-end text-white hover:text-gray-300  focus:outline-none " onClick={()=>this.setListOpen3()}>
                 <span className="sr-only">Open menu</span>
                 {/* Heroicon name: outline/menu */}
                 <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -55,7 +54,7 @@ export class Navbar extends Component {
                 </svg>
               </button>
             </div>
-            <nav className="hidden md:flex space-x-10">
+            <nav className="hidden lg:flex space-x-10">
               <div className="relative">
                 <button type="button" className="group  text-gray-300 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none " onClick={()=>this.setListOpen1()}>
                   <span>Products</span>
@@ -94,11 +93,11 @@ export class Navbar extends Component {
             
               </div>
             </nav>
-            <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <Link to="signin" className="whitespace-nowrap text-base font-bold text-gray-700 hover:text-gray-800 px-8 py-3 border-l-2 border-transparent rounded-full shadow-sm text-base font-bold text-white bg-white hover:bg-">
+            <div className="hidden lg:flex items-center justify-end md:flex-1 lg:w-0">
+            <Link to="signin" className="whitespace-nowrap text-base font-bold text-gray-700 hover:text-gray-800 px-8 py-2 border-l-2 border-transparent rounded-full shadow-sm text-lg font-bold text-white bg-white hover:bg-">
                 Sign in
           </Link>
-              <Link to="signup" className="ml-4 whitespace-nowrap inline-flex items-center justify-center px-8 py-3 border-l-2 border-transparent rounded-full shadow-sm text-base font-bold text-white bg-indigo-600 hover:bg-indigo-700">
+              <Link to="signup" className="ml-4 whitespace-nowrap inline-flex items-center justify-center px-8 py-2 border-l-2 border-transparent rounded-full shadow-sm text-lg font-bold text-white bg-indigo-600 hover:bg-indigo-700">
                 Sign up
           </Link>
             </div>
@@ -251,7 +250,7 @@ export class Navbar extends Component {
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Neptune</h2>
             <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-            <a className="text-indigo-500 inline-flex items-center">Learn More
+            <a href="/" className="text-indigo-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
@@ -260,7 +259,7 @@ export class Navbar extends Component {
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Melanchole</h2>
             <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-            <a className="text-indigo-500 inline-flex items-center">Learn More
+            <a  href="/" className="text-indigo-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
@@ -272,10 +271,11 @@ export class Navbar extends Component {
         <Switch>
       <Route exact path='/' component={Hero}/>
       <Route path="/signup" component={SignUp}/>
-      <Route path="/academy" component={Acadmain}/>
+      <Route path="/signin" component={SignIn}/>
+      <Route path="/academy" component={CourseCatalog}/>
+      <Route path="/course" component={CoursePage}/>
    </Switch>
-      </div>
-   
+    
     
       </div>
     )

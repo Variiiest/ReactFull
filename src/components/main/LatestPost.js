@@ -4,12 +4,9 @@ class LatestPost extends Component {
     render() {
         return (
             <div>
-               <section className="text-gray-600 body-font bg-gray-900">
+               <section className="text-gray-600 body-font bg-gray-800">
         <div className="container px-5 py-24 mx-auto">
-        <div className="text-center mb-20">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Raw Denim Heirloom Man Braid</h1>
      
-      </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full bg-gray-900 shadow-lg hover:shadow-2xl rounded-lg overflow-hidden">
